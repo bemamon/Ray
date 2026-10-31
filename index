@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ray Safety Officer｜專業安全顧問服務，提供風險評估、教育訓練與現場安全管理。"
+    />
+    <title>Ray | Safety Officer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand" aria-label="Ray Safety Officer">
+          <span class="brand-mark">R</span>
+          <span>Ray</span>
+        </div>
+        <nav class="nav-links" aria-label="主導覽">
+          <a href="#about">關於我們</a>
+          <a href="#services">服務</a>
+          <a href="#process">流程</a>
+          <a href="#contact">聯絡</a>
+        </nav>
+        <a class="button button-primary nav-cta" href="#contact">立即諮詢</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">Safety Officer</p>
+            <h1>建立安全文化，守護每一位工作者。</h1>
+            <p class="subtitle">
+              我們協助企業建立更安全的工作環境，透過風險辨識、教育訓練與現場治理，
+              降低事故發生機率並提升營運效率。
+            </p>
+            <div class="hero-actions">
+              <a href="#contact" class="button button-primary">免費評估</a>
+              <a href="#services" class="button button-secondary">了解服務</a>
+            </div>
+            <ul class="metrics" aria-label="公司成效指標">
+              <li><strong>10+</strong><span>年實務經驗</span></li>
+              <li><strong>200+</strong><span>專案協作</span></li>
+              <li><strong>99%</strong><span>客戶滿意度</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <div class="glow-card">
+              <div class="badge">安全管理</div>
+              <h2>風險可視化</h2>
+              <div class="chart">
+                <span style="--h: 52%"></span>
+                <span style="--h: 68%"></span>
+                <span style="--h: 76%"></span>
+                <span style="--h: 86%"></span>
+                <span style="--h: 94%"></span>
+              </div>
+              <div class="status-row">
+                <div>
+                  <small>安全稽核</small>
+                  <strong>優良</strong>
+                </div>
+                <div class="status-dot"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-bar">
+        <div class="container trust-items">
+          <span>ISO 45001</span>
+          <span>職業安全教育</span>
+          <span>風險評估</span>
+          <span>現場稽核</span>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container two-column">
+          <div class="section-copy">
+            <p class="eyebrow dark">關於 Ray</p>
+            <h2>從預防到落地，讓安全真正成為競爭優勢。</h2>
+            <p>
+              Ray 以「以人為本、以風險為核心」為理念，協助企業從制度設計、訓練執行到現場監督，
+              建立一套穩定且可持續的安全管理體系。每一次改善，都以實際風險與營運需求為依據。
+            </p>
+          </div>
+          <div class="feature-stack">
+            <div class="feature-card">
+              <span class="icon">✓</span>
+              <div>
+                <h3>系統化管理</h3>
+                <p>整合安全制度與流程，從源頭降低作業風險。</p>
+              </div>
+            </div>
+            <div class="feature-card">
+              <span class="icon">⚑</span>
+              <div>
+                <h3>實務導向</h3>
+                <p>依照現場實況設計符合營運的執行方式與改善方案。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow dark">服務項目</p>
+            <h2>為各類場域提供安全解決方案</h2>
+          </div>
+
+          <div class="cards three-up">
+            <article class="service-card">
+              <div class="service-icon">01</div>
+              <h3>職業安全稽核</h3>
+              <p>檢視現場流程、設備與管理制度，提供具體改善建議。</p>
+            </article>
+            <article class="service-card">
+              <div class="service-icon">02</div>
+              <h3>安全教育訓練</h3>
+              <p>依據崗位需求設計訓練內容，提升員工安全知識與警覺。</p>
+            </article>
+            <article class="service-card">
+              <div class="service-icon">03</div>
+              <h3>風險評估與管理</h3>
+              <p>辨識潛在危害，建立風險分級與優先處理順序。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="process" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow dark">合作流程</p>
+            <h2>簡單、有效、可持續的執行方式</h2>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <span>STEP 1</span>
+              <h3>需求訪談</h3>
+              <p>了解現場狀況、痛點與合規需求。</p>
+            </div>
+            <div class="timeline-item">
+              <span>STEP 2</span>
+              <h3>現場評估</h3>
+              <p>蒐集資料、檢視風險與管理缺口。</p>
+            </div>
+            <div class="timeline-item">
+              <span>STEP 3</span>
+              <h3>改善方案</h3>
+              <p>制定具體建議與可執行的改善計畫。</p>
+            </div>
+            <div class="timeline-item">
+              <span>STEP 4</span>
+              <h3>追蹤執行</h3>
+              <p>持續監督成效與優化管理機制。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section cta-section">
+        <div class="container cta-box">
+          <div>
+            <p class="eyebrow dark">聯絡我們</p>
+            <h2>現在就開始打造更安全的工作環境。</h2>
+          </div>
+          <a href="mailto:hello@raysafety.example" class="button button-primary">hello@raysafety.example</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p>© <span id="year"></span> Ray Safety Officer</p>
+        <p>守護每一個工作場域</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
